@@ -22,3 +22,8 @@ The main three languages for building a website are HTML, CSS, and JavaScript (J
 A mobile app frontend has more options. Here are some of them:
 Swift, Java, Kotlin, JavaScript, and, more recently, Dart.
 
+### The Backend
+The backend is a bit harder to conceptualize than the frontend. Go back to [Google](https://www.google.com). Look around again. As I said before, all this is drawn by the frontend code. But the frontend code isn't able to provide all of that information on its own. When you visited that site, your computer asked the backend server for the frontend code. The frontend code then asked the server for some information, such as whether the user is logged in, and where their profile picture is located. These are things that *only the backend knows*. In this way, the frontend and backend work together to present all the information the user needs.
+
+#### Parts of the backend
+The backend can be further divided into two primary parts: the database and the intermedium.
