@@ -26,4 +26,13 @@ Swift, Java, Kotlin, JavaScript, and, more recently, Dart.
 The backend is a bit harder to conceptualize than the frontend. Go back to [Google](https://www.google.com). Look around again. As I said before, all this is drawn by the frontend code. But the frontend code isn't able to provide all of that information on its own. When you visited that site, your computer asked the backend server for the frontend code. The frontend code then asked the server for some information, such as whether the user is logged in, and where their profile picture is located. These are things that *only the backend knows*. In this way, the frontend and backend work together to present all the information the user needs.
 
 #### Parts of the backend
-The backend can be further divided into two primary parts: the database and the intermedium.
+The backend can be further divided into two primary parts: the database and the intermedium. The database holds all your users' information, while the intermedium asks the database for information the frontend needs.
+
+##### Database Languages
+The database is more of a storage area, so it doesn't have a lot of code involved, although if you are using PostgreSQL, MySQL, or other SQL database systems, you will be using SQL to query that database.
+
+##### Intermedium languages
+The intermedium has the most language options of any other part of your web application. Here are some of the most popular:
+PHP, Python, Ruby, Perl, C, C++, JavaScript (via NodeJS), and many more.
+
+
