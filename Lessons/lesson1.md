@@ -51,3 +51,6 @@ Since we can't have that happening, the frontend languages cannot access the dat
 You'll begin to notice as you get deeper into the backend that security becomes a very important factor. You're always going to have to remember that there are people who will want to break into your application, and even little mistakes can result in a big problem.
 ## Review
 In summary, a web application is simply a set of computer programs, composed of a frontend and a backend, that work together to give the user a certain service. The frontend generates everything you see (UI), and the backend helps the frontend get the right information. For security purposes, the backend is split into an intermedium and a database.
+
+
+[<< Back to Home](/README.md)  [Next Lesson >>](/Lessons/lesson2.md)
