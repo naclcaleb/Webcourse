@@ -35,4 +35,11 @@ The database is more of a storage area, so it doesn't have a lot of code involve
 The intermedium has the most language options of any other part of your web application. Here are some of the most popular:
 PHP, Python, Ruby, Perl, C, C++, JavaScript (via NodeJS), and many more.
 
+### Why do we have an intermedium?
+The frontend languages are not allowed to access the database. To see why, let's imagine what might happen if they could. 
+Any user can, in a sense, edit any and all of your frontend code. Mind, they can't edit the actual files on your server, but they can edit the version that is being run on the client computer. If the frontend languages were able to access the database directly, a user could easily obtain sensitive information such as usernames, passwords, or credit card numbers.
 
+Since we can't have that happening, the frontend languages cannot access the database, and instead we have the intermedium. The intermedium *is* allowed to access the database, but it cannot be tampered with by the users. Instead, the frontend languages can "ask" the intermedium to get certain data from the database, and the intermedium will make sure that user is allowed to access that information. If they are, it will get from the database, then pass it back to the frontend.
+
+## Review
+In summary, a web application 
