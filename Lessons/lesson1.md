@@ -13,7 +13,9 @@ So this definition is really just saying that a web application is a big set of 
 
 ### The Frontend
 Simply put, the frontend is everything you *see* when you look at a website, or open a mobile app. 
-For example, go to [Google.com](https://www.google.com). Take a look around. You might see some text, some images, and a big search box in the middle. All these components are drawn on your screen by the frontend code. 
+For example, go to [Google.com](https://www.google.com). Take a look around. You might see some text, some images, and a big search box in the middle. All these components are drawn on your screen by the frontend code.
+
+The stuff you see on the webpage is called the __user interface, or UI__.
 
 #### Frontend languages
 The Frontend can be either a website or a mobile app (or both), as shown in Figure 1.1.
@@ -26,7 +28,7 @@ Swift, Java, Kotlin, JavaScript, and, more recently, Dart.
 The backend is a bit harder to conceptualize than the frontend. Go back to [Google](https://www.google.com). Look around again. As I said before, all this is drawn by the frontend code. But the frontend code isn't able to provide all of that information on its own. When you visited that site, your computer asked the backend server for the frontend code. The frontend code then asked the server for some information, such as whether the user is logged in, and where their profile picture is located. These are things that *only the backend knows*. In this way, the frontend and backend work together to present all the information the user needs.
 
 #### Parts of the backend
-The backend can be further divided into two primary parts: the database and the intermedium. The database holds all your users' information, while the intermedium asks the database for information the frontend needs.
+The backend can be further divided into two primary parts: the __database__ and the __intermedium__. The database holds all your users' information, while the intermedium asks the database for information the frontend needs.
 
 ##### Database Languages
 The database is more of a storage area, so it doesn't have a lot of code involved, although if you are using PostgreSQL, MySQL, or other SQL database systems, you will be using SQL to query that database.
@@ -42,4 +44,4 @@ Any user can, in a sense, edit any and all of your frontend code. Mind, they can
 Since we can't have that happening, the frontend languages cannot access the database, and instead we have the intermedium. The intermedium *is* allowed to access the database, but it cannot be tampered with by the users. Instead, the frontend languages can "ask" the intermedium to get certain data from the database, and the intermedium will make sure that user is allowed to access that information. If they are, it will get from the database, then pass it back to the frontend.
 
 ## Review
-In summary, a web application 
+In summary, a web application is simply a set of computer programs, composed of a frontend and a backend, that work together to give the user a certain service. The frontend generates everything you see (UI), and the backend helps the frontend get the right information. For security purposes, the backend is split into an intermedium and a database.
