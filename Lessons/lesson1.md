@@ -46,5 +46,8 @@ Any user can, in a sense, edit any and all of your frontend code. Mind, they can
 
 Since we can't have that happening, the frontend languages cannot access the database, and instead we have the intermedium. The intermedium *is* allowed to access the database, but it cannot be tampered with by the users. Instead, the frontend languages can "ask" the intermedium to get certain data from the database, and the intermedium will make sure that user is allowed to access that information. If they are, it will get from the database, then pass it back to the frontend.
 
+*In other words, having an intermedium is like placing a "wall" between the frontend and the database, with a guard at the door making sure nobody gets through who isn't allowed to.*
+
+You'll begin to notice as you get deeper into the backend that security becomes a very important factor. You're always going to have to remember that there are people who will want to break into your application, and even little mistakes can result in a big problem.
 ## Review
 In summary, a web application is simply a set of computer programs, composed of a frontend and a backend, that work together to give the user a certain service. The frontend generates everything you see (UI), and the backend helps the frontend get the right information. For security purposes, the backend is split into an intermedium and a database.
