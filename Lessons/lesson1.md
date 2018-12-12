@@ -5,3 +5,5 @@ A web application or web app is a client–server computer program in which the 
 But what does that mean?
 
 ![Figure 1.1](/resources/WebAppStructure.png)
+
+Referring to Figure 1.1
