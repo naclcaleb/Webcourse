@@ -33,3 +33,5 @@ Now, I could try to teach you HTML, but there are already many great resources o
 To start your first lesson, go [here](https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro).
 
 As you continue in the KhanAcademy course, you will learn the basics of HTML and CSS. The other lessons that I make will accompany those, and add new information that KhanAcademy leaves out.
+
+[<< Previous lesson](lesson1.md) | [Next Lesson >>](lesson3.md)
