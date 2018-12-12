@@ -1,6 +1,9 @@
 # Lesson 1 - Structure of a Web Application
 ### What is a web application? 
-A web application or web app is a client–server computer program in which the client (including the user interface and client-side logic) runs in a web browser.
+Unless you're already an experienced programmer, this definition might not make much sense to you at first. That's fine, as this entire lesson is dedicated to explaining it:
+"
+__A web application or web app is a client–server computer program in which the client (including the user interface and client-side logic) runs in a web browser. __
+"
 
 But what does that mean?
 
