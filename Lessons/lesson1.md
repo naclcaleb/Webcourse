@@ -53,4 +53,4 @@ You'll begin to notice as you get deeper into the backend that security becomes 
 In summary, a web application is simply a set of computer programs, composed of a frontend and a backend, that work together to give the user a certain service. The frontend generates everything you see (UI), and the backend helps the frontend get the right information. For security purposes, the backend is split into an intermedium and a database.
 
 
-[<< Back to Home](/README.md)  [Next Lesson >>](/Lessons/lesson2.md)
+[<< Back to Home](/README.md) | [Next Lesson >>](/Lessons/lesson2.md)
