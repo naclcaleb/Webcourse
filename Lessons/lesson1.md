@@ -7,7 +7,7 @@ __A web application or web app is a client–server computer program in which th
 
 But what does that mean?
 
-![Figure 1.1](/resources/WebAppStructure.png)
+![Figure 1.1](../resources/WebAppStructure.png)
 
 As shown in Figure 1.1, a web app is composed of two main parts: a __frontend__ and a __backend__.
 The frontend is a set of computer programs that run on the user's computer (the __client__ computer), while the backend is a different set of computer programs that run on a more powerful __server__ computer.
