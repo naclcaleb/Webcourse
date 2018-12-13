@@ -34,4 +34,6 @@ To start your first lesson, go [here](https://www.khanacademy.org/computing/comp
 
 As you continue in the KhanAcademy course, you will learn the basics of HTML and CSS. The other lessons that I make will accompany those, and add new information that KhanAcademy leaves out.
 
+(KhanAcademy course link: https://www.khanacademy.org/computing/computer-programming/html-css)
+
 [<< Previous lesson](lesson1.md) | [Next Lesson >>](lesson3.md)
