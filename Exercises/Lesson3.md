@@ -13,4 +13,18 @@ What's wrong with it?
 <br>
 <br>
 <br>
-2. 
+2. Look at the following paragraph tag. The text being displayed in bold needs to be in italics instead. What tag should replace the `<strong>` tag?
+
+```
+<p>
+Hi there! <strong>Welcome to the Paragraph!</strong>
+</p>
+```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+3. _Now complete the HTML/CSS course on KhanAcademy._
