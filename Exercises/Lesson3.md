@@ -27,4 +27,4 @@ Hi there! <strong>Welcome to the Paragraph!</strong>
 <br>
 <br>
 <br>
-3. *Now complete the HTML/CSS course on KhanAcademy.*
+3. Now complete the HTML/CSS course on KhanAcademy.
