@@ -3,4 +3,76 @@ Since HTML and CSS are such important parts of frontend web development, we're g
 
 So, to start out, here's our first example:
 
-<h2><a href="https://www.khanacademy.org/computer-programming/teaching-material-1/5373785929056256">Teaching Material - #1</a></h2><script src="https://www.khanacademy.org/computer-programming/teaching-material-1/5373785929056256/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script><p>Made using: <a href="http://www.khanacademy.org/computer-programming">Khan Academy Computer Science</a></p>
+### [Example 1](https://www.khanacademy.org/computer-programming/teaching-material-1/5373785929056256)
+
+<details>
+  <summary>For the Teachers</summary>
+  <p>Feel free to play around a little bit with the program at the link. It helps keep the students engage, to have interactive results like that.</p>  
+</details>
+
+Now, here's the problem. That webpage is okay, but it doesn't look very special right now. What are some things we can do to make it better? (HINT: You'll need to use both HTML _and_ CSS for this one)
+
+<details>
+  <summary>Expand to view the answer</summary>
+  <p>There are a lot of things that could make this page better, but a few that I had in mind were:<br>
+    <ol>
+      <li>Turn the list of points into an order list! Remember, this requires the `ol` and `li` tags.</li>
+      <li>Let's try changing the color of the header! Change it to whatever color you like, as long as there's enough contrast to read the text!</li>
+      <li>Pro tip: A lot of the time, it's best to stay away from using colors that are perfectly white or perfectly black. It often looks better to offset them just a little bit. In code, this means taking something like `rgb(255,255,255)` and changing it to `rgb(253,253,253)` for white, or taking `rgb(0,0,0)` and changing it to `rgb(2,2,2)` for black.</li>
+      <li>Finally, let's add a background for the paragraph content. Again use a color with enough contrast to read the text!</li>
+    </ol>
+  </p>
+</details>
+
+Great! You completed the first example! Hopefully you learned something new from that, or at least gained some exerience.
+Now we're going to target a more specific skill. Let's say you have the following code:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <meta charset='utf-8'>
+    
+    <style>
+      ____ {
+        background:red;
+      }
+      ____ {
+        color:green;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <h1>
+          Paragraph after the line items
+        </h1>
+      </ol>
+    </p>
+  </body>
+</html>
+```
+
+The question here is, how should you fill in the blanks so that the entire ordered list has a red background, and only the `h1` inside the ordered list is colored green?
+
+<details>
+  <summary>Expand to view the answer</summary>
+  <p>
+    The first blank should be replaced with `ol`, and the second should be replaced with `h1`.
+  </p>
+</details>
+
+That one was trickier, but probably not too difficult. If you keep practicing, your CSS will be great in no time!
+
+Now, you should try making your own creation with HTML and CSS for a little bit! Go to [KhanAcademy](https://khanacademy.org/computer-programming/new/webpage) to play with some code!
+
+## Ending Notes
+This was a shorter lesson. The most important thing is that you keep practicing your HTML/CSS, and keep up with the KhanAcademy course. 
+However, pretty soon, after we learn JavaScript, it'll be time to start making your own web app frontend!
+It's a good idea to start thinking about what you want to build right now, so you'll be ready then.
+
+Happy Coding!
