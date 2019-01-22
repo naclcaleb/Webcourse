@@ -16,9 +16,9 @@ Now, here's the problem. That webpage is okay, but it doesn't look very special 
   <summary>Expand to view the answer</summary>
   <p>There are a lot of things that could make this page better, but a few that I had in mind were:<br>
     <ol>
-      <li>Turn the list of points into an order list! Remember, this requires the `ol` and `li` tags.</li>
+      <li>Turn the list of points into an order list! Remember, this requires the <code>ol</code> and <code>li</code> tags.</li>
       <li>Let's try changing the color of the header! Change it to whatever color you like, as long as there's enough contrast to read the text!</li>
-      <li>Pro tip: A lot of the time, it's best to stay away from using colors that are perfectly white or perfectly black. It often looks better to offset them just a little bit. In code, this means taking something like `rgb(255,255,255)` and changing it to `rgb(253,253,253)` for white, or taking `rgb(0,0,0)` and changing it to `rgb(2,2,2)` for black.</li>
+      <li>Pro tip: A lot of the time, it's best to stay away from using colors that are perfectly white or perfectly black. It often looks better to offset them just a little bit. In code, this means taking something like <code>rgb(255,255,255)</code> and changing it to <code>rgb(253,253,253)</code> for white, or taking <code>rgb(0,0,0)</code> and changing it to <code>rgb(2,2,2)</code> for black.</li>
       <li>Finally, let's add a background for the paragraph content. Again use a color with enough contrast to read the text!</li>
     </ol>
   </p>
@@ -62,7 +62,7 @@ The question here is, how should you fill in the blanks so that the entire order
 <details>
   <summary>Expand to view the answer</summary>
   <p>
-    The first blank should be replaced with `ol`, and the second should be replaced with `h1`.
+    The first blank should be replaced with <code>ol</code>, and the second should be replaced with <code>h1</code>.
   </p>
 </details>
 
