@@ -7,7 +7,7 @@ So, to start out, here's our first example:
 
 <details>
   <summary>For the Teachers</summary>
-  <p>Feel free to play around a little bit with the program at the link. It helps keep the students engage, to have interactive results like that.</p>  
+  <p>Feel free to play around a little bit with the program at the link. It helps keep the students engaged, to have interactive results like that.</p>  
 </details>
 
 Now, here's the problem. That webpage is okay, but it doesn't look very special right now. What are some things we can do to make it better? (HINT: You'll need to use both HTML _and_ CSS for this one)
